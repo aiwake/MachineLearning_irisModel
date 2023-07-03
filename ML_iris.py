@@ -21,6 +21,8 @@ import pandas as pd
 featuresDF = pd.DataFrame(features)
 #print(type(featuresDF)) #<class 'pandas.core.frame.DataFrame'>
 featuresDF.columns = featuresName #before 0 1 2 3 columns name i change
-#print(featuresDF) #change control is worked
+print(featuresDF[:5]) #change control is worked
+print("\n",featuresDF.describe(),"\n\n\n") # i added statics
 
+#print(featuresDF.info()) # i added info because controlled is miss data
 # %%
