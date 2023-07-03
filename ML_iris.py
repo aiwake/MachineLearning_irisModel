@@ -57,3 +57,11 @@ X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.33,random_state
 #6-TRAİN MODEL :
 
 claf.fit(X_train,y_train)
+
+rateTrain = claf.score(X_train,y_train)
+rateTest = claf.score(X_test, y_test)
+print("Test Data Rate:",rateTest,"%")
+print("Train Data Rate:",rateTrain,"%")
+
+
+
