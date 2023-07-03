@@ -27,10 +27,15 @@ print("\n",featuresDF.describe(),"\n\n\n") # i added statics
 #print(featuresDF.info()) # i added info because controlled is miss data
 # %%
 #3-VİSUALİZE DATA : i use matplotlib
-
 featuresDF.plot(kind="line")
 
+# %%
+#4-SELECT MODEL : README.md how i select model
+#i selected KNeighborsClassifier
 
+from sklearn.neighbors import KNeighborsClassifier
+claf = KNeighborsClassifier() #DEFAULT VALUE = 5
+#claf = KNeighborsClassifier(n_neighbors=5)
 
 
 # %%
