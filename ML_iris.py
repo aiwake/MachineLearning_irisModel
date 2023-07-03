@@ -15,13 +15,12 @@ label = irisSet.target #target include 0 1 2 total 150 index
 labelName = irisSet.target_names #['setosa' 'versicolor' 'virginica']
 
 # %%
-#2-ANALYZE DATASET : we use Pandas because we want Pandas dataframe table
+#2-ANALYZE DATASET : i use Pandas because i want Pandas dataframe table
 import pandas as pd
 
 featuresDF = pd.DataFrame(features)
-print(type(featuresDF)) #<class 'pandas.core.frame.DataFrame'>
-
-
-
+#print(type(featuresDF)) #<class 'pandas.core.frame.DataFrame'>
+featuresDF.columns = featuresName #before 0 1 2 3 columns name i change
+#print(featuresDF) #change control is worked
 
 # %%
