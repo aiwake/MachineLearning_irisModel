@@ -39,3 +39,18 @@ claf = KNeighborsClassifier() #DEFAULT VALUE = 5
 
 
 # %%
+#5-SPLİT MODEL : test data and train data split
+import numpy as np
+from sklearn.model_selection import train_test_split
+
+#X is feature
+#y is class,label etc.
+
+X = features
+y = label
+
+
+
+
+
+# %%
