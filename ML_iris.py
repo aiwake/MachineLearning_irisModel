@@ -19,6 +19,7 @@ labelName = irisSet.target_names #['setosa' 'versicolor' 'virginica']
 import pandas as pd
 
 featuresDF = pd.DataFrame(features)
+print(type(featuresDF)) #<class 'pandas.core.frame.DataFrame'>
 
 
 
