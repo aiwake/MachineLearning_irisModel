@@ -30,5 +30,7 @@ Which Package Managemant ?
     +Download ML_iris.py and open 
     
   > https://github.com/aiwake/MachineLearning_irisModel.git
+##SELECT MODEL ROADMAP
+> https://scikit-learn.org/stable/_static/ml_map.png
 
 
