@@ -26,3 +26,11 @@ print("\n",featuresDF.describe(),"\n\n\n") # i added statics
 
 #print(featuresDF.info()) # i added info because controlled is miss data
 # %%
+#3-VİSUALİZE DATA : i use matplotlib
+
+featuresDF.plot(kind="line")
+
+
+
+
+# %%
