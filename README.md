@@ -1,4 +1,4 @@
-### MACHINE LEARNING IRIS MODEL
+# MACHINE LEARNING IRIS MODEL
 
 What is it ?
 > https://medium.com/@jebaseelanravi96/machine-learning-iris-classification-33aa18a4a983
@@ -10,11 +10,11 @@ Which Package Management ?
 > https://www.anaconda.com/download
 
 ## How İnstall ?
-1-İnstall Anaconda
+**1-İnstall Anaconda**
 
-2-İnstall Spyder
+**2-İnstall Spyder**
 
-3-Open Anaconda Powershell Prompt
+**3-Open Anaconda Powershell Prompt**
 
     +conda create YOUR_ENV_NAME
     +conda activate YOUR_ENV_NAME
@@ -23,7 +23,9 @@ Which Package Management ?
     +conda install -c anaconda pandas
     +conda install -c conda-forge matplotlib
     +conda install -c anaconda joblib
-4-Open Anaconda Navigator
+
+
+**4-Open Anaconda Navigator**
 
     +Exit base (root)
     +Select YOUR_ENV_NAME
@@ -32,8 +34,11 @@ Which Package Management ?
     
   > https://github.com/aiwake/MachineLearning_irisModel.git
 
-## SELECT MODEL ROADMAP
+## Select Model Roadmap
 
 > https://scikit-learn.org/stable/_static/ml_map.png
+
+## Anaconda Powershell Prompt Cheat Sheet / Commands
+>https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
 
 
