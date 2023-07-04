@@ -27,6 +27,8 @@ app = FastAPI() # i linking this object and uvicorn
 def read_root():
     return {"Work": "Worked ! Bros"}
 
+async def read_item(request: Request, id: str):
+    return templates.TemplateResponse("item.html", {"request": request, "id": id})
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Union[str, None] = None):
