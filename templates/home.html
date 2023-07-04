@@ -22,6 +22,7 @@ tr:nth-child(even) {
 <body>
 
 <h1>AiWake | IRIS MACHINE LEARNING MODEL</h1>
+<form action="/action_page.php">
 
 <table>
   <tr>
@@ -31,13 +32,16 @@ tr:nth-child(even) {
     <th>Petal Width</th>
   </tr>
   <tr>
-    <td>1.8</td>
-    <td>2.7</td>
-    <td>3.1</td>
-    <td>1.4</td>
+<td><input type="number" name="L1" value="1.7" min="0" max="15" step="any" ></td>
+<td><input type="number" name="W1" value="3.4" min="0" max="15" step="any" ></td>
+<td><input type="number" name="L2" value="2.2" min="0" max="15" step="any" ></td>
+<td><input type="number" name="W2" value="1.1" min="0" max="15" step="any" ></td>
   </tr>
   </table>
+  <br><input type="submit" value="Submit"></br>
+</form>
 
+<p>Coded By AiWake</p>
 </body>
 </html>
 
