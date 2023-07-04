@@ -64,4 +64,15 @@ print("Test Data Rate:",rateTest,"%")
 print("Train Data Rate:",rateTrain,"%")
 
 
+# %%
+#7-SAVE MODEL :
+from joblib import dump, load
+filename="aiwakeIrisModel.joblib"
+dump(claf,filename)
+#saved C:\Users\Username\anaconda3\envs\YOUR_ENVS\YOUR_MODEL_FİLE\
+
+
+
+
+
 
