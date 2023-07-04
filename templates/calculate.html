@@ -1,43 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+{% extends "home.html" %}
+{% block content %}
+ <h1>RESULT</h1>
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
-</head>
-<body>
-
-<h1>RESULT</h1>
-
-<table>
-  <tr>
-    <th>Iris Type</th>
-    <th>Iris Prediction</th>
-    <th>Other Iris Prediction</th>
-  </tr>
-  <tr>
-<td>{{predicted}}</td>
-<td>{{rate}}</td>
-<td>{{rates}}</td>
-  </tr>
-  </table>
+ <table>
+   <tr>
+     <th>Iris Type</th>
+     <th>Iris Prediction</th>
+     <th>Other Iris Prediction</th>
+   </tr>
+   <tr>
+ <td>{{predicted}}</td>
+ <td>{{rate}}</td>
+ <td>{{rates}}</td>
+   </tr>
+   </table>
+{% endblock %}
 
 
-<p>Coded By AiWake</p>
-</body>
-</html>
 
