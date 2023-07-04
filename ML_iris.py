@@ -79,4 +79,3 @@ claf = load(filename)  # you can test change 'claf' after newName.fit(X_train,y_
 
 
 
-
