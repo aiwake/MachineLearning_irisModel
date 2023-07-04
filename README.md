@@ -6,7 +6,7 @@ What is it ?
 Which ide ?
 > https://www.spyder-ide.org/
 
-Which Package Managemant ?
+Which Package Management ?
 > https://www.anaconda.com/download
 
 ## How İnstall ?
