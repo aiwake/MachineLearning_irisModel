@@ -65,7 +65,7 @@ print("Test Data Rate:", rateTest, "%")
 print("Train Data Rate:", rateTrain, "%")
 
 # %%
-# 7-SAVE MODEL :
+# 7-SAVE and LOAD MODEL :
 from joblib import dump, load
 
 filename = "aiwakeIrisModel.joblib"
