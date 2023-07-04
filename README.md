@@ -22,6 +22,7 @@ Which Package Managemant ?
     +conda install -c anaconda spyder
     +conda install -c anaconda pandas
     +conda install -c conda-forge matplotlib
+    +conda install -c anaconda joblib
 4-Open Anaconda Navigator
 
     +Exit base (root)
