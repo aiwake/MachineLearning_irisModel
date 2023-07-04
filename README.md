@@ -24,6 +24,12 @@ Which Package Management ?
     +conda install -c conda-forge matplotlib
     +conda install -c anaconda joblib
 
+ **If you start web server**
+    
+    +conda install -c conda-forge fastapi
+    +conda install -c conda-forge uvicorn
+    +conda install -c anaconda jinja2
+
 
 **4-Open Anaconda Navigator**
 
