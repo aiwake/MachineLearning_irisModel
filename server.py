@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 """
 @author: aiwake
 """
@@ -24,11 +24,9 @@ app = FastAPI() # i linking this object and uvicorn
 
 
 @app.get("/")
-def read_root():
-    return {"Work": "Worked ! Bros"}
+async def read_root(request: Request):
+    return  templates.TemplateResponse("item.html", {"request": request, "id": id})
 
-async def read_item(request: Request, id: str):
-    return templates.TemplateResponse("item.html", {"request": request, "id": id})
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Union[str, None] = None):
