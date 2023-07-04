@@ -14,6 +14,12 @@ from typing import Union
 from fastapi import FastAPI , Request
 from fastapi.templating import Jinja2Templates
 
+#Create templates files your projets locate
+templates = Jinja2Templates(directory="templates")
+
+
+
+
 app = FastAPI() # i linking this object and uvicorn
 
 
